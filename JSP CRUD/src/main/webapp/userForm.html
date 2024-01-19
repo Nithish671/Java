@@ -1,0 +1,23 @@
+<a href="viewUsers.jsp">View All Records</a><br>
+
+<h1>Add New User</h1>
+<form action="addUser.jsp" method="post">
+	<table>
+		<tr><td>Name:</td><td><input type="text" name="name" /></td></tr>
+		<tr><td>Password:</td><td><input type="password" name="password" /></td></tr>
+		<tr><td>E-Mail:</td><td><input type="email" name="email" /></td></tr>
+		<tr><td>Gender:</td><td><input type="radio" name="gender" value="Male" />Male
+		<input type="radio" name="gender" value="Female" />Female</td></tr>
+		<tr><td>Universe:</td><td>
+			<select name="universe" style="width:155px">
+				<option>Dragon Ball</option>
+				<option>Jujutsu Kaisen</option>
+				<option>One Piece</option>
+				<option>Bleach</option>
+				<option>Naruto</option>
+				<option>Attack On Titan</option>
+			</select>
+		</td></tr>
+		<tr><td colspan="2"><input type="submit" value="Add User" /></td></tr>
+	</table>
+</form>
