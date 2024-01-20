@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>LoginServ</servlet-name>
+		<servlet-class>com.myOrg.LoginServ</servlet-class></servlet>
+	<servlet>
+		<servlet-name>SignupServ</servlet-name>
+		<servlet-class>com.myOrg.SignupServ</servlet-class></servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServ</servlet-name>
+		<url-pattern>/LoginServ</url-pattern></servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SignupServ</servlet-name>
+		<url-pattern>/SignupServ</url-pattern></servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file></welcome-file-list></web-app>
